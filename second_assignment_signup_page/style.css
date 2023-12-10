@@ -180,6 +180,13 @@ letter-spacing: -0.8px;
     flex-shrink: 0;
 } 
 
+.dob {
+background-image: url(./image/calendar-iconvector-illustration-flat-design-260nw-1702594414.webp);
+background-position: 250px;
+ background-repeat: no-repeat;
+ background-size: 18px;
+}
+
 .p2{
 color: #000;
 font-family: Sofia Pro;
