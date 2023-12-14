@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wp-Pusher-Checkout</title>
     <link rel="stylesheet" href="./style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+    
   </head>
   <body>
     <header>
         <div class="header-div">
             <div class="image-header">
-                <img src="./images/wppusher-logo copy.jpg" alt="Logo" />
+                <img src="./images/wppusher-logo copy.png" alt="Logo" />
               </div>
               <div class="navbar">
                 <nav>
@@ -29,10 +33,11 @@
                 <div class="Checkout">
                   <h1>Checkout</h1>
                 </div>
+                <div class="emypt1"></div>
                 <form>
                  <div class="user-info">
                      <!--First frame-->
-                  <div class="frame">
+                  <div class="frame info">
                     <div class="image">
                       <img src="./images/images.png" alt="1 icon" />
                     </div>
@@ -59,13 +64,14 @@
                       </div>
                       <div>
                       </div>
+                      
                   </div>
                  </div>
-                  
+                 <div class="emypt2"></div>
                 </form>
                 <!--2 frame-->
                 <form action="">
-                    <div class="frame">
+                    <div class="frame Payment">
                         <div class="image">
                          <img src="./images/images (1).png" alt="2 icon"/>
                         </div>
@@ -75,59 +81,119 @@
                      </div>
                      <!--user-payment info-->
                     <div class="card-div">
-                        <div>
+                        <div class="card-details">
                             <label>Credit Card</label>
-                            <input type="text" placeholder="Card Number &nbsp &nbsp &nbsp MM / YY CVC"/>
+                            <input type="text" placeholder="Card Number &nbsp &nbsp &nbsp &nbsp &nbsp
+                             &nbsp &nbsp &nbsp
+                              MM / YY &nbsp &nbsp CVC"/>
                          </div>
                         <div></div>
                     </div>
                 </form>
+
+                <div class="emypt3"></div>
                 <!--button-->
                 <div class="button">
                     <button>Buy WP Pusher</button>
                 </div>
-                <p>Need any help? Don’t hesitate to contact support!</p>
-                <div>
-                    <img src="./images/powered_by_stripe.jpg" alt="stripe logo"/>
+                <div class="Mask">
+                    <div>
+                        <img src="./images/Mask.jpg" alt="Mask"/>
+                    </div>
+                    <div class="mask-p">
+                        <p>Need any help? <bold class="mask-p-2">Don’t hesitate to <a class="support">contact support!</a></bold></p>
+                    </div>
+                </div>
+                <div class="stripe">
+                    <img src="./images/powered_by_stripe.png" alt="stripe logo"/>
                 </div>
               </div>
               <!--second div-container-->
               <div class="second-div">
-                <h3>Freelancer</h3>
-                <div>
-                    <h6>$</h6>
-                    <h1>99 / year</h1>
+                <div class="second-div-container">
+                    <div class="Freelancer">
+                        <h3>Freelancer</h3>
+                    </div>
+                    
+                <div class="year-div">
+                    <div class="dollar-sign">
+                        <h6>$</h6>
+                    </div>
+                    <div class="year99">
+                        <h1>99 <small class="year">/ year</small></h1>
+                    </div>
                 </div>
+                    
+                <div class="renew">
                     <p>
                         Automatically renews &nbsp after 1 year
                     </p>
+                </div>
         
                        <!--list-->
                     <div class="list">
-                        <ul>
-                            <li>Use on 5 client sites </li>
-                            <li>Private repositories</li>
-                            <li>Email support</li>
-                        </ul>
-                    </div>
-                    <p>Need 20 client sites?
-                        Switch to the Agency plan.</p>
+
+                        <div>
+                            <img src="./images/Combined Shape Copy 2.png" alt="checkmark icon"/>
+                        </div>
+                        <div class="list-text">
+                            <p>Use on <bold class="five">5</bold> client sites</p>
+                        </div>
+                        </div>
+
+                        <div class="list">
+
+                            <div>
+                                <img src="./images/Combined Shape Copy 2.png" alt="checkmark icon"/>
+                            </div>
+                            <div class="list-text">
+                                <p>Private repositories</p>
+                            </div>
+                            </div>
+
+                            <div class="list">
+
+                                <div>
+                                    <img src="./images/Combined Shape Copy 2.png" alt="checkmark icon"/>
+                                </div>
+                                <div class="list-text">
+                                    <p>Email support</p>
+                                </div>
+                                </div>
+                
+                                <div class="client">
+                                    <p>Need <bold class="twenty">20</bold> client sites?
+                                    Switch to the <bold class="agency">Agency </bold>plan.</p>
+                                </div>
+                                <div class="emypt4"></div>
+
+                                <div class="empty">
+                                    <div></div>
+                                </div>
               </div>
               <!---->
               <div>
-                <div>
+                <div class="FTP">
                     <p>
                         FTP is horrible to deal with. WP Pusher solves that issue, and the customer support is awesome!
                     </p>
                 </div>
                 <div class="Bitmap">
-                    <img src="./images/Bitmap.jpg"/>
-                    <h4>Kirk Beard</h4>
+                    <div class="Bitmap-img">
+                        <img src="./images/Bitmap.jpg" alt="image"/>
+                    </div>
+                  <div>
+                    <h4 class="Bitmap-text">Kirk Beard</h4>
+                  </div>
                 </div>
               </div>
+                </div>
         </div>
-      <!--div header-->
-   
     </main>
+    <footer>
+        <div class="footer-div">
+            <p>© 2018 WP Pusher IVS  ·  <span class="Terms">Terms of Service</span></p>
+        </div>
+    </footer>
   </body>
 </html>

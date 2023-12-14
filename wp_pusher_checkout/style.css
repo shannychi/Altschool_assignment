@@ -29,17 +29,11 @@ header {
   border-bottom: 3px solid  #E0E6EA;;
 }
 
-/*.image{
-width: 200px;
-height: 39px;
-background: url(./images/wppusher-logo\ copy.jpg), lightgray 0px 0px / 100% 100% no-repeat;
-}*/
-
 .navbar a {
   text-decoration: none;
-  margin: 6px;
+  margin: 10px;
   color: #1d2c3c;
-  font-family: Lato;
+  font-family: 'Lato', sans-serif;;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -69,7 +63,7 @@ padding: 8px;
 }
 
 .First-div{
-width: 600px;
+width: 550px;
 height: 795px;
 flex-shrink: 0;
 border-radius: 6px;
@@ -92,25 +86,67 @@ height: 54px;
 flex-shrink: 0;
 color: #1D2C3C;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-font-family: Lato;
+font-family: 'Lato', sans-serif;;
 font-size: 30px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+position: relative;
+top: 40px;
+left: 50px;
+}
+
+
+.emypt1{
+width: 109%;
+height: 2px;
+flex-shrink: 0;
+background: #F5F7FA;
+position: relative;
+top: 70px;
+}
+
+.emypt2{
+width: 109%;
+height: 2px;
+flex-shrink: 0;
+background: #F5F7FA;
+position: relative;
+top: 40px;
+}
+
+.emypt3{
+width: 109%;
+height: 2px;
+flex-shrink: 0;
+background: #F5F7FA;
+position: relative;
+bottom: 15px;
 }
 
 .frame{
     display: flex;
     margin: 50px;
+    gap: 6px;
 }
 
+.info{
+    position: relative;
+    top: 35px;
+    right: 40px;
+}
+
+.Payment{
+   position: relative;
+   top: 35px;
+}
 .text {
 width: 700px;
 height: 32px;
 flex-shrink: 0;
 color: #1D2C3C;
-font-family: serif;
-font-size: 18px;
+font-family: 'lato', sans-serif;
+font-size: 15px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -118,6 +154,11 @@ letter-spacing: -0.16px;
 
 }
 
+.user-input label, .email-div label, 
+.card-details label {
+    position: relative;
+    bottom: 8px;
+}
 
 .image img{
 width: 40px;
@@ -132,9 +173,11 @@ height: 50px;
 flex-shrink: 0;
 gap: 30px;
 padding: 10px;
+position: relative;
+bottom: 10px;
 }
 .user-input input {
-    padding: 6px;
+    padding: 15px;
     border-radius: 4px;
     background: #EDEFF2;
     border: none;
@@ -151,7 +194,7 @@ padding: 10px
 
 .email-div input {
     width: 150%;
-    padding: 6px;
+    padding: 15px;
     border-radius: 4px;
     background: #EDEFF2;
     border: none;
@@ -162,10 +205,10 @@ padding: 10px
 margin-left: 60px;
 }
 
-.user-input label, .email-div label{
+.user-input label, .email-div label, .card-details label{
 width: 187px;
 color: #1D2C3C;
-font-family: serif;
+font-family: 'Lato', sans-serif;;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -175,17 +218,303 @@ line-height: normal;
 .card-div{
 display: flex;
 width: 226px;
-height: 50px;
+height: 100px;
 flex-shrink: 0;
 gap: 30px;
-padding: 10px
+padding: 10px;
+margin: 0 60px;
 }
 
 .card-div input {
-    width: 200%;
-    padding: 6px;
+    width: 230%;
+    padding: 15px;
     border-radius: 4px;
     background: #EDEFF2;
     border: none;
     
+}
+
+.button button{
+ width: 483px;
+height: 52px;
+flex-shrink: 0;
+ border-radius: 5px;
+background: #038E7D;
+border: none;
+align-items: center;
+margin: 8px 50px;
+color: #FFF;
+text-align: center;
+font-family: 'lato' sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.396px;
+}
+
+.Mask{
+    display: flex;
+    gap: 10px;
+    margin: 5px 80px;
+}
+
+.mask-p p{
+color: #1D2C3C;
+font-family: 'Lato', sans-serif;;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.01px;
+}
+
+.mask-p-2 {
+color: #646E7A;
+font-family: 'Lato', sans-serif;;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.01px;
+}
+
+.stripe{
+width: 92px;
+height: 20.101px;
+flex-shrink: 0;
+align-items: center;
+margin: 0 250px;
+position: relative;
+top: 10px;
+}
+
+/* started styling second div container*/
+.Freelancer{
+color: #FFF;
+font-family: 'Lato', sans-serif;;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.01px;
+margin: 20px;
+position: relative;
+left: 50px;
+top: 20px;
+}
+
+.year-div{
+    display: flex;
+    gap: 5px;
+    position: relative;
+    left: 30px;
+}
+
+.dollar-sign{
+color: #FFF;
+font-family: 'Lato', sans-serif;;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.015px;
+position: relative;
+top: 30px;
+}
+
+.year99{
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: -0.015px;
+}
+
+.year{
+color: #FFF;
+font-family: 'Lato', sans-serif;;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.015px;
+}
+
+.renew{
+width: 180px;
+color: #FFF;
+font-family: 'Lato', sans-serif;;
+font-size: 16px;
+font-style: italic;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.008px;
+position: relative;
+left: 30px;
+}
+
+.list{
+   display: flex;
+   position: relative;
+   left: 30px;
+   margin: 20px;
+   gap: 6px;
+}
+
+.list-text p {
+color: #FFF;
+font-family: 'Lato', sans-serif;;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: -0.008px;
+}
+
+.five{
+color: #FFF;
+font-family: 'Lato', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: -0.008px;
+}
+
+.client{
+color: #FFF;
+font-family: 'Lato', sans-serif;;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.008px;
+width: 190px;
+position: relative;
+left: 40px;
+top: 10px;
+margin: 20px;
+}
+
+.twenty{
+    color: #FFF;
+    font-family: 'Lato', sans-serif;;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.008px; 
+}
+
+.agency{
+color: #FFF;
+font-family: 'Lato', sans-serif;;
+font-size: 16px;
+font-style: italic;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.008px;
+}
+
+.empty{
+width: 70%;
+height: 2px;
+flex-shrink: 0;
+opacity: 0.2005;
+background: #FFF;
+position: relative;
+top: 40px;
+margin: 10px 40px;
+}
+
+.FTP{
+width: 227px;
+color: #FFF;
+font-family: 'Lato', sans-serif;;
+font-size: 18px;
+font-style: italic;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: -0.009px;
+position: relative;
+top: 70px;
+left: 60px;
+}
+
+.Bitmap{
+   display: flex; 
+   gap: 10px;
+   position: relative;
+   top: 100px;
+   left: 50px;
+}
+
+.Bitmap-img img{
+width: 40px;
+height:40px;
+flex-shrink: 0;
+border-radius: 50%;
+background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat;
+}
+
+.Bitmap-text{
+color: #FFF;
+font-family: 'Lato', sans-serif;;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.008px;
+}
+
+.support{
+color: #646E7A;
+font-family: 'Lato', sans-serif;;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.01px;
+text-decoration: underline;
+}
+.emypt4{
+width: 180px;
+height: 4px;
+flex-shrink: 0;
+opacity: 0.5036;
+background: #B9F5FF;
+position: relative;
+bottom: 14px;
+left: 60px;
+}
+
+
+.footer-div{
+ width: 867px;
+color: #636B6F;
+text-align: center;
+font-family: 'lato', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: relative;
+bottom: 60px;
+left: 270px;
+}
+
+.Terms{
+color: #31708F;
+font-family: 'Lato', sans-serif;;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.second-div-container{
+    padding-left: 40px;
 }

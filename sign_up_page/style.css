@@ -1,0 +1,298 @@
+*{
+    
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    
+}
+body{
+width: 1440px;
+height: 840px;
+flex-shrink: 0;
+background: var(--cl-green, #f6f8f8);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    gap: 30px;
+
+}
+
+.form-container{
+width: 580px;
+height: 679px;
+flex-shrink: 0;
+border-radius: 6px;
+background: #FFF;
+box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.10);
+}
+
+.form-flex{
+    display: flex;
+    height: 50px;
+    flex-shrink: 0;
+    justify-content: space-between;
+    align-items:center ;
+    gap: 30px;
+    position: relative;
+    margin: 50px;
+    
+}
+
+.form-flex input, .form-flex select{
+width: 238px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 2px;
+border: 1px solid var(--cl-gray-3, #F0F0F0);
+}
+
+.form-flex input:hover, .form-flex select:hover,
+ .Activity input:hover, .Activity select:hover{
+    border: 2px solid var(--cl-green, #2EC4B6);;
+}
+
+.Activity{
+    display: flex;
+    margin: 10px ;
+position: relative;
+left: 40px;
+}
+
+.Activity input, .Activity select {
+width: 500px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 2px;
+position: relative;
+border: 2px solid var(--cl-gray-3, #F0F0F0);
+}
+
+button {
+width: 500px;
+height: 48px;
+flex-shrink: 0;
+background: var(--cl-green, #2EC4B6);
+align-items: center;
+margin: 10px 50px;
+border: none;
+color: var(--basic-100, #FFF);
+text-align: center;
+font-family: sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.2px;
+position: relative;
+top: 10px;
+}
+
+.p2{
+    color: #000;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    text-align:  center;
+    position: relative;
+    top: 20px;
+}
+
+a{
+color: var(--cl-green, #2EC4B6);
+font-family: sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 25px;
+text-decoration-line: underline;
+}
+
+.form-flex label, .Activity label {
+width: 333px;
+color: var(--text-headings, #011C34);
+font-family:sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.1px;
+position: relative;
+bottom: 8px;
+box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.10);
+}
+
+.password-img input{
+    background-image: url(./image/download.png);
+    background-position: 470px;
+    background-repeat: no-repeat;
+    background-size: 16px;
+}
+
+.dob{
+background-image: url(./image/calendar-icon-free-vector.jpg);
+background-position: 200px;
+ background-repeat: no-repeat;
+ background-size: 18px;
+}
+
+
+.text-container{
+    position: relative;
+    right: 50px;
+}
+
+.p1{
+width: 350px;
+color: var(--cl-grey, #737373);
+font-family: Brown;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 156.25% */
+}
+
+h1{
+color: var(--cl-black, #000B0A);
+font-family: Brown;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: -0.8px;
+position: relative;
+bottom: 30px;
+}
+
+.Logo {
+width: 77.333px;
+height: 80px;
+flex-shrink: 0;
+filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.10));
+position: relative;
+bottom: 110px;
+right: 20px;
+}
+
+ input::placeholder,select::placeholder {
+width: 170px;
+color:  #737373;
+font-family: sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 20px;
+letter-spacing: 0.2px;
+position: relative;
+left: 10px;
+}
+
+.header-mobile{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    body{
+        width: 375px;
+        height: 1294px;
+     
+         flex-shrink: 0;
+    }
+    .container{
+    flex-direction: column; 
+     margin-top: 200px;
+    flex-shrink: 0;
+    }
+
+    .form-container{
+    width: 300px;
+    height: 800px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #FFF;
+     box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.10);
+     align-items: center;
+     margin-right: 30px;
+    }
+
+    .form-flex{
+        flex-direction: column;
+       margin-bottom: 120px;
+       padding-right: 40px;
+    }
+
+    input, select {
+       
+        padding: 10px;
+       width: 200px;
+    }
+
+    .Level select{
+        width: 110%;
+    }
+
+    .Level, .password-img{
+        position: relative;
+        right: 30px;
+        
+    }
+    .Activity input {
+        width: 85%;
+       padding-right: 15px;
+       
+    }
+
+    button {
+        width: 270px;
+        height: 48px;
+        flex-shrink: 0;
+        fill: var(--cl-green, #2EC4B6);
+        filter: drop-shadow(0px 10px 40px rgba(0, 0, 0, 0.10));
+        align-items: center;
+        position: relative;
+        right: 35px;
+    }
+
+    .text-container{
+        position: relative;
+        right: 0;
+
+    }
+
+    .p1{
+       display: flex;
+       width: 300px;
+      text-align: start;
+      margin-right: 20px;
+    }
+
+    .p2{
+        position: relative;
+        top: 30px;
+    }
+
+    .password-img input{
+        background-image: url(./image/download.png);
+        background-position: 200px;
+        background-repeat: no-repeat;
+        background-size: 16px;
+    }
+
+    .header-mobile{
+        display: flex;
+        justify-content: space-around;
+        gap: 70px;
+        height: 11.5px;
+        color: #000;
+        margin-top: 30px;
+        position: relative;
+        right: 2px;
+    }
+}
