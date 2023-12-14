@@ -209,6 +209,7 @@ left: 10px;
     flex-direction: column; 
      margin-top: 200px;
     flex-shrink: 0;
+    padding-left: 40px;
     }
 
     .form-container{
