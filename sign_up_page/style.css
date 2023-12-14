@@ -197,6 +197,10 @@ left: 10px;
     display: none;
 }
 
+.p3{
+    display: none;
+}
+
 @media only screen and (max-width: 600px) {
 
     body{
@@ -209,11 +213,11 @@ left: 10px;
     flex-direction: column; 
      margin-top: 200px;
     flex-shrink: 0;
-    padding-left: 40px;
+    padding-left: 150px;
     }
 
     .form-container{
-    width: 300px;
+    width: 327px;
     height: 800px;
     flex-shrink: 0;
     border-radius: 6px;
@@ -236,7 +240,7 @@ left: 10px;
     }
 
     .Level select{
-        width: 110%;
+        width: 130%;
     }
 
     .Level, .password-img{
@@ -245,7 +249,7 @@ left: 10px;
         
     }
     .Activity input {
-        width: 85%;
+        width: 100%;
        padding-right: 15px;
        
     }
@@ -264,14 +268,23 @@ left: 10px;
     .text-container{
         position: relative;
         right: 0;
+        right: 20px;
 
     }
-
     .p1{
+        display: none;
+    }
+
+    .p3{
        display: flex;
-       width: 300px;
-      text-align: start;
-      margin-right: 20px;
+       width: 327px;
+       color: var(--CL-Grey, #737373);
+       font-family: Brown;
+       font-size: 16px;
+       font-style: normal;
+       font-weight: 300;
+       line-height: 25px; /* 156.25% */
+
     }
 
     .p2{
@@ -281,19 +294,23 @@ left: 10px;
 
     .password-img input{
         background-image: url(./image/download.png);
-        background-position: 200px;
+        background-position: 230px;
         background-repeat: no-repeat;
         background-size: 16px;
     }
 
     .header-mobile{
         display: flex;
-        justify-content: space-around;
-        gap: 70px;
+        justify-content: space-between;
+        gap: 100px;
         height: 11.5px;
         color: #000;
         margin-top: 30px;
         position: relative;
-        right: 2px;
+        left: 70px;
+    }
+
+    .user-input{
+        width: 130%;
     }
 }
