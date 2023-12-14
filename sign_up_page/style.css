@@ -325,4 +325,8 @@ left: 10px;
     .header-mobile-img{
         margin-left: 150px;
     }
+
+    select {
+        background: none;
+    }
 }
