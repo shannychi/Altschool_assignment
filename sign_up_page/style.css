@@ -328,5 +328,12 @@ left: 10px;
 
     select {
         background: none;
+        color: var(--CL-Grey, #737373);
+      font-family: sans-serif;
+      font-size: 14px;
+     font-style: normal;
+    font-weight: 300;
+line-height: 20px;
+letter-spacing: 0.2px;
     }
 }
