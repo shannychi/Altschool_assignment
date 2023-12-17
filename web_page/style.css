@@ -1,13 +1,15 @@
 *{
         padding: 0;
         margin: 0;
-        font-family: 'lato', sans-serif;
+        font-family: 'Gilroy-Bold', sans-serif;
       
 }
 
+
+
 body{
-    width: 1440px;
-height: 1024px;
+width: 1400px;
+height: 100hv;
 background: #FFF;
 }
 
@@ -103,12 +105,12 @@ font-weight: 400;
 line-height: 12px; /* 75% */
 }
 header{
-    background-image: url(./image/bg\ aurora.png);
+    background-image: url(./image/Hero\ section.png);
     background-repeat: no-repeat;
     background-size: auto;
 }
 .main-container{
-    background-image: url(./image/bg\ aurora.png);
+    background-image: url(./image/Hero\ section.png);
     background-repeat: no-repeat;
     background-size: auto;
 }
@@ -826,4 +828,411 @@ font-weight: 400;
 line-height: 18px; /* 150% */
  }
 
+ /* stated styling FAQs here */
  
+ .FAQs-containers{
+    width: 1440px;
+    height: 1153px;
+background-image: url(./image/FAQs\ \(1\).png);
+background-repeat: no-repeat;
+position: relative;
+padding-left: 250px;
+top: 150px;
+ }
+
+ .FAQs{
+display: inline-flex;
+flex-direction: column;
+align-items: center;
+gap: 64px;
+ }
+
+ .text-faqs h1{
+color: var(--Text-Color-Main-text, #141414);
+font-family: 'Gilroy-Bold', sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+padding-left: 150px;
+position: relative;
+right: 20px;
+ }
+
+ .line-stroke{
+    width: 0.1px;
+height: 48px;
+stroke-width: 5px;
+stroke: #112232;
+position: relative;
+top: 105px;
+right: 10px;
+ }
+ 
+ .minus-text{
+    flex: 1 0 0;
+    color: var(--Text-Color-Main-text, #141414);
+font-family: 'Gilroy-Medium', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+ }
+
+ .first-FAQs-p{
+    width: 792px;
+height: 63px;
+color: var(--Text-Color-Main-text, #141414);
+font-family: 'Gilroy-Medium', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+position: relative;
+top: 20px;
+
+ }
+ 
+.second-FAQs{
+display: flex;
+gap: 50px;
+}
+
+.plus{
+    position: relative;
+    left: 60px;
+}
+
+.plus-text{
+    flex: 1 0 0;
+    color: var(--Text-Color-Main-text, #141414);
+font-family: 'Gilroy-Medium', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+position: relative;
+right: 60px;
+
+
+}
+
+.plus1-text{
+width: 742px;
+color: var(--Text-Color-Main-text, #141414);
+font-family: 'Gilroy-Medium', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+
+}
+
+
+.plus2-text{
+    width: 742px;
+    color: var(--Text-Color-Main-text, #141414);
+font-family: 'Gilroy-Medium', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+
+}
+
+.plus3-text{
+    width: 744px;
+    color: var(--Text-Color-Main-text, #141414);
+font-family: 'Gilroy-Medium', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+;
+}
+
+.plus4-text{
+    width: 744px;
+    color: var(--Text-Color-Main-text, #141414);
+font-family: 'Gilroy-Medium', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+
+}
+
+.plus5-text{
+    width: 740px;
+height: 54px;
+color: var(--Text-Color-Main-text, #141414);
+font-family: 'Gilroy-Medium', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+
+}
+
+.plus6-text{
+    width: 745px;
+    color: var(--Text-Color-Main-text, #141414);
+font-family: 'Gilroy-Medium', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+
+}
+
+.plus7-text{
+    width: 742px;
+    height: 53px;
+    color: var(--Text-Color-Main-text, #141414);
+font-family: 'Gilroy-Medium',sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+
+}
+
+.line-vector{
+  position: relative;
+  bottom: 30px;
+  height: 0px;
+align-self: stretch;
+stroke-width: 1px;
+stroke: var(--Black-1, #D6D6D6);
+}
+
+
+.plus-container{
+    position: relative;
+    bottom: 40px;
+}
+
+.line-vector1{
+    position: relative;
+    bottom: 90px;
+    height: 0px;
+  align-self: stretch;
+  stroke-width: 1px;
+  stroke: var(--Black-1, #D6D6D6); 
+}
+
+.plus-container1{
+    position: relative;
+    bottom: 100px;
+}
+
+.line-vector2{
+    position: relative;
+    bottom: 150px;
+    height: 0px;
+  align-self: stretch;
+  stroke-width: 1px;
+  stroke: var(--Black-1, #D6D6D6);   
+}
+
+.plus-container2{
+    position: relative;
+    bottom: 160px;
+}
+
+.line-vector3{
+    position: relative;
+    bottom: 200px;
+    height: 0px;
+  align-self: stretch;
+  stroke-width: 1px;
+  stroke: var(--Black-1, #D6D6D6);
+}
+
+.plus-container3{
+    position: relative;
+    bottom: 210px;
+}
+
+.line-vector4{
+    position: relative;
+    bottom: 260px;
+    height: 0px;
+  align-self: stretch;
+  stroke-width: 1px;
+  stroke: var(--Black-1, #D6D6D6);
+}
+
+.plus-container4{
+    position: relative;
+    bottom: 280px;
+}
+
+.line-vector5{
+    position: relative;
+    bottom: 330px;
+    height: 0px;
+  align-self: stretch;
+  stroke-width: 1px;
+  stroke: var(--Black-1, #D6D6D6);
+}
+
+.plus-container5{
+    position: relative;
+    bottom: 350px;
+}
+
+.line-vector6{
+    position: relative;
+    bottom: 390px;
+    height: 0px;
+  align-self: stretch;
+  stroke-width: 1px;
+  stroke: var(--Black-1, #D6D6D6);
+}
+
+.plus-container6{
+    position: relative;
+    bottom: 420px;
+}
+
+.line-vector7{
+    position: relative;
+    bottom: 470px;
+    height: 0px;
+  align-self: stretch;
+  stroke-width: 1px;
+  stroke: var(--Black-1, #D6D6D6);
+}
+
+.plus-container7{
+    position: relative;
+    bottom: 500px;
+}
+
+.line-vector8{
+    position: relative;
+    bottom: 550px;
+    height: 0px;
+  align-self: stretch;
+  stroke-width: 1px;
+  stroke: var(--Black-1, #D6D6D6);
+}
+
+.last-div-main{
+position: relative;
+padding-top: 1200px;;
+}
+
+
+.last-div{
+    background-image: url(./image/Frame\ 1000001649last-div.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    width: 1440px;
+height: 400px;
+flex-shrink: 0;
+}
+
+
+.last-div h1{
+    width: 806px;
+height: 57px;
+color: #FFF;
+text-align: center;
+font-family: 'Gilroy-Bold', sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 48px;
+text-align: center;
+padding-left: 230px;
+padding-top: 90px;
+}
+
+.last-div button {
+    display: flex;
+width: 200px;
+height: 48px;
+padding: 12px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 100px;
+background: var(--Primary-400, #005AE2);
+border: none;
+position: relative;
+left: 555px;
+top: 50px;
+color: var(--Neutral-White, #FFF);
+font-family: 'Gilroy-SemiBold', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 12px; /* 75% */
+}
+
+/* started styling footer here */
+
+.footer-container{
+    background-image: url(./image/footer.png);
+    background-repeat: repeat;
+    position: relative;
+    bottom: 200px;
+    width: 1440px;
+height: 561px;
+}
+
+
+.footer-flex{
+display: inline-flex;
+align-items: flex-start;
+gap: 40px;
+width: 50%;
+flex-wrap: wrap;
+padding-left: 550px;
+}
+
+.footer-flex p {
+    color: var(--Neutral-800, #112232);
+font-family: 'Gilroy-Medium', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+width: 140px;
+}
+
+.footer-flex h1{
+    color: var(--Neutral-900, #071827);
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.Logo{
+padding: 8px;
+padding-left: 300px;
+position: relative;
+top: 80px;
+}
+
+.socials{
+    padding: 0px 8px;
+    padding-left: 300px;
+    position: relative;
+    top: 100px;
+}
+
+.Terms-flex{
+    display: flex;
+    gap: 10px;
+    position: relative;
+    top: 90px;
+    align-items: end;
+    justify-content: end;
+    padding-right: 90px;
+
+}
