@@ -201,6 +201,10 @@ text-align: center;
     display: none;
 }
 
+.p3{
+    display: none;
+}
+
 @media  only screen and (max-width: 600px) {
     body{
         flex-direction: column;
@@ -233,7 +237,8 @@ flex-direction: column;
         margin-left: 50px;
         margin-bottom: 50px;
 }
-p{
+.p3{
+    display: flex;
 width: 100%;
 color: var(--cl-grey, #737373);
 font-family: Brown;
@@ -242,6 +247,10 @@ font-style: normal;
 font-weight: 200;
 line-height: 25px;
 
+}
+
+.p1{
+    display: none
 }
 
 h1{
