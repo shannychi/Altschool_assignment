@@ -11,6 +11,7 @@ body{
 width: 1400px;
 height: 100hv;
 background: #FFF;
+overflow-x: hidden;
 }
 
 .header-container{
@@ -19,6 +20,7 @@ align-items: center;
 gap: 140px;
 padding: 10px;
 margin-left: 60px;
+
 
 }
 
@@ -1181,6 +1183,7 @@ line-height: 12px; /* 75% */
     bottom: 200px;
     width: 1440px;
 height: 561px;
+
 }
 
 
