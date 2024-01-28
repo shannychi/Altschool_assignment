@@ -2,19 +2,14 @@ const http = require("http");
 const fs = require("fs");
 const path = require("path");
 const internal = require("stream");
+
 let booksDB = []
 
+const { GetBooks } = require("./modules/GetBooks")
 
-
-const {GetBooks} = require("./modules/GetBooks")
-
-
-const  bookPath = path.join(__dirname, "data.json");
-
+const bookPath = path.join(__dirname, "data.json");
 const PORT = 8000;
 const HOST_NAME = "localhost";
-
-
 
 function HandleRequest(req, res) {
     if(req.url === "/books" && req.method === "GET"){
@@ -37,11 +32,6 @@ function HandleRequest(req, res) {
         console.log("server listing at Post")
     }
 }
-
-
-
-
-
 
 const server = http.createServer(HandleRequest);
 
