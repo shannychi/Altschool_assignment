@@ -9,7 +9,7 @@ let booksDB = []
 const {GetBooks} = require("./modules/GetBooks")
 
 
-const  bookPath = path.join(__dirname, "Node.js_assignment", "data.json");
+const  bookPath = path.join(__dirname, "data.json");
 
 const PORT = 8000;
 const HOST_NAME = "localhost";
